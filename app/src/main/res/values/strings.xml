@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Manipal Utsav</string>
+    <string name="title_activity_event_list">Event_list</string>
+    <string name="title_staff_utsav">Staff Utsav</string>
+    <string name="title_day1">Day 1(April 2nd)</string>
+    <string name="title_day2">Day 2(April 3rd)</string>
+    <string name="title_day3">Day 3(April 4th)</string>
+    <string name="title_day4">Day 4(April 5th)</string>
+
+    <string name="title_activity_home_screen">Home_screen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Rules Detail -->
+    <string name="s1">Position</string>
+    <string name="s10">3rd Position</string>
+    <string name="s11">06 points</string>
+    <string name="s12">08 points</string>
+    <string name="s2">Solo Events</string>
+    <string name="s3">Group Events</string>
+    <string name="s4">1st Position</string>
+    <string name="s5">10 points</string>
+    <string name="s6">14 points</string>
+    <string name="s7">2nd Position</string>
+    <string name="s8">08 points</string>
+    <string name="s9">10 points</string>
+
+    <string name="utsav_detail">UTSAV – The Annual Inter College Cultural Festival held in Manipal Academy of Higher Education. Students from all the constituent colleges of the MAHE and also students from our campuses at Bangalore, Sikkim, Nepal, Malaysia and Dubai are invited to participate in this gala event.</string>
+    <string name="rule01">1. If participants do not follow the rules, especially regarding punctuality and vulgarity, and / or misbehave either with the organizers / support staff (including those of external agencies) and / or advertise, directly or indirectly, for any company (by wearing costumes or any accessories bearing the name of the company or its brand) they will not only be disqualified for the event but also will be banned from UTSAV forever.</string>
+    <string name="rule02">2. To avoid disputes regarding time, time will be kept by authorized personnel and displayed prominently.</string>
+    <string name="rule03">3. On stage practice sessions will be allotted by MU CCC on the days of UTSAV. All staff coordinators are requested to coordinate practice sessions.</string>
+    <string name="rule04">4. Orchestra will NOT be provided or allowed, so also self-guitar or any other instrumental support for Non classical vocal singing (East/West, Solo/Group). Participants may sing with or without Karaoke.</string>
+    <string name="rule05">5. Only bonafide full time students of Manipal University / its sister Institutions that are enrolled for a degree or postgraduate degree / diploma or any course of minimum 6 months duration will be eligible to participate in the intercollegiate cultural competitions.</string>
+    <string name="rule06">6. All participants must possess the I.D. Cards along with them, all the time.</string>
+    <string name="rule07">7. There is NO Spot registration for any event. There is no registration fee for any event. However participants must register the given date through an Institution or Group of Departments as approved earlier by the university.</string>
+    <string name="rule08">8. All participants should report half an hour before the start of an event and be ready to perform else they will be given walkover and won’t be allowed to participate at a later slot. If a participant is given walkover the next participant should be ready to perform immediately, else will face walkover.</string>
+    <string name="rule09">9. Staff coordinators should submit audio files of items in MP3 format ONLY by 11 am of the day of scheduled item to AV desk to avoid undue delay in starting of the event or a particular item.</string>
+    <string name="rule10">10. The organizers are not responsible for the participant’s inability to participate in an event if its schedule clashes with another event (it is advised to give chance to wider cross section of students instead of repeating same students).</string>
+    <string name="rule11">11. The event will be cancelled if there are less than 3 entries.</string>
+    <string name="rule12"> For every event there will be 3 top positions and they carry following points:</string>
+    <string name="rule13">13. Top 3 colleges will receive Champions Rolling Trophies (Winners, 1st Runner Up and 2nd Runner Up) based on total points scored.</string>
+    <string name="rule14">14. When positions are shared points will not be shared. Decision of the judges will be final and binding. However in the event of any genuine dispute or objection ONLY staff coordinator of the college may submit a memorandum in writing to the Chairman CCC within an hour of announcing the results. The matter shall be reviewed by the Panel of Referees consisting of the Chairman CCC, Secretary CCC and one of the Judges of the particular event (subjected to availability), and if found genuine the position may be reviewed and changed. But if the objection is deemed incorrect the objecting team would lose the given position and the next team will be considered for their position.</string>
+    <string name="rule15">15. MU CCC is not responsible for any loss of valuables and belongings of participants.</string>
+    <string name="rule16">16. MU CCC will book the hostel accommodation on request for out station participants however participating institutions will have to pay for the travel, accommodation, food and incidental charges.</string>
+    <string name="rule17">17. MU CCC will provide basic infra-structure (stage, light, sound) only. All other requirements should be arranged by their respective colleges.</string>
+    <string name="rule18">18. Participants are requested to strictly adhere to the rules by letter and spirit, Staff coordinators are requested to ensure the same. They are advised to screen all performances before registering. This is to ensure level playing field and avoid disputes and controversies.</string>
+    <string name="rule19">19. The Staff Coordinator should take the responsibility of violation of rules and its consequences. In any case MU CCC can’t be held responsible for violation of rules by participants.</string>
+    <string name="rule20">20. Participants shall not reveal their own or their college identity in any manner. They shall also not air their religious, national, political, personal views or touch on sensitive issues. Vulgarity/ obscenity in concept, dress, talk and action are strictly prohibited. The individual / team may be asked to stop the item during the show and / or disqualified even after winning the prize if found violating the rules.</string>
+    <string name="rule21">21. All are requested to accept victory with humility and loss with grace and sportive spirit. Expression of joy and sorrow in unruly/violent manner shall disqualify the college from winning the trophy. The staff coordinators are requested to control the students and not indulge in instigating the students themselves.</string>
+    <string name="rule22">22. Accidental fall of objects on stage will not be penalized. However whether it is intentional, the call will be taken by the judges and appropriately penalized.</string>
+    <string name="rule23">23. For events involving narrators, recorded narration can be used in which case maximum number of participants will be the upper limit mentioned.</string>
+    <string name="rule24">12. In keeping with the objective of timely conduct of events, a system of negative marking will be followed for all the events where applicable: Minus 5 for time exceeded in the range 0 – 15 seconds, minus 10 for time exceeded in the range of 15 – 30 seconds, minus 15 for time exceeded in the range 30 – 45 seconds, and in such progression.</string>
+
+
+</resources>

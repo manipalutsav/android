@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+
+        <RelativeLayout
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:layout_marginBottom="5sp"
+        android:background="@drawable/custom_card"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout5">
+
+
+            <ImageView
+                android:id="@+id/icons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="20sp"
+                android:backgroundTintMode="screen"
+
+                android:src="@drawable/ic_events" />
+
+
+
+        </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/letters"
+        android:layout_width="wrap_content"
+        android:shadowColor="#35edebeb"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:layout_marginTop="16sp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout5"
+        android:text="TextView"
+        android:textColor="#e5292929"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

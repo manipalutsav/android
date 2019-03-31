@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3sp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+
+        android:layout_marginBottom="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardccc"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        card_view:cardPreventCornerOverlap="false"
+        app:cardPreventCornerOverlap="false"
+        android:background="@drawable/custom_card"
+        android:layout_height="wrap_content"
+
+        android:outlineProvider="bounds"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="@dimen/cardview_default_radius"
+        android:layout_marginRight="@dimen/cardview_default_radius"
+        android:layout_marginTop="@dimen/cardview_default_radius"
+        android:layout_marginBottom="@dimen/cardview_default_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textccc_clg"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+
+                android:layout_below="@+id/ccc_name"
+                android:layout_marginTop="7dp"
+                android:text="jhwggqdud"
+
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+
+
+
+            <TextView
+                android:id="@+id/ccc_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:singleLine="true"
+                android:text="name"
+
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

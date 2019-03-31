@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+ <!--<item name="ic_home_black_24dp" type="drawable">drawable/</item>-->
+    <!--<item name="ic_help_black_24dp" type="drawable">@drawable/ic_help_black_24dp</item>-->
+    <!--<item name="ic_person_white_24dp" type="drawable">@drawable/ic_person_white_24dp</item>-->
+    <!--<item name="ic_exit_to_app_black_24dp" type="drawable">@drawable/ic_exit_to_app_black_24dp</item>-->
+
+
+</resources>

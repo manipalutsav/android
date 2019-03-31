@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10sp"
+    app:cardCornerRadius="20sp"
+    android:backgroundTint="#f7f9f5f5"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/textViewnameblood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="NAME"
+            android:textAllCaps="true"
+            android:textColor="#f730a6d6"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:shadowColor="#e6e0e0"
+            android:shadowDx="1"
+            android:shadowDy="3"
+            android:shadowRadius="3"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/ivmanicon" />
+
+
+        <TextView
+            android:id="@+id/textViewbloodgrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textViewbgtext"
+            android:text="TextView"
+            android:textColor="#d6ec2331"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginLeft="5sp"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#787575"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewbgtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="CONTACT NO : "
+            android:textColor="#787575"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewblooddrop"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/textViewcontact"
+            android:layout_marginRight="10sp"
+            android:layout_toStartOf="@+id/textViewcontact"
+            app:srcCompat="@drawable/ic_icon" />
+
+        <ImageView
+            android:id="@+id/ivmanicon"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+
+            app:srcCompat="@drawable/ic_notifications_black_24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textViewtapcalblood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            android:textColor="#e4599f13"
+            android:text="(tap to call)"
+            android:layout_alignBottom="@+id/textViewnameblood"
+            android:layout_alignEnd="@+id/textViewcontact" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

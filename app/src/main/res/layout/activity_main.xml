@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/linearlayoutmain"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical"
+                               android:id="@+id/sliderlayout">
+
+
+
+                                        <com.daimajia.slider.library.SliderLayout
+                                            android:id="@+id/slider1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="256dp"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_marginTop="0dp" />
+
+                                        <com.daimajia.slider.library.Indicators.PagerIndicator
+                                            android:id="@+id/custom_indicator"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center" />
+                            </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/gridlayout"
+    android:layout_below="@+id/sliderlayout"
+    android:layout_height="wrap_content">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="240sp"
+        android:layout_below="@+id/sliderlayout"
+
+        android:layout_alignParentStart="true"
+
+        android:columnWidth="0sp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:outlineProvider="bounds"
+
+        android:padding="4sp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="41dp">
+
+    </GridView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridlayout"
+        android:textColor="#5F5E5E"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:textSize="16dp"
+        android:id="@+id/utsavDetail"
+        android:padding="10dp"
+        android:text="@string/utsav_detail"/>
+
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

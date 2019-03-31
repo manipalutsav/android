@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+
+    android:background="@drawable/custom_card"
+    android:layout_marginBottom="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardnews"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        card_view:cardPreventCornerOverlap="false"
+        app:cardPreventCornerOverlap="false"
+        android:background="@drawable/custom_card"
+        android:layout_height="wrap_content"
+
+        android:outlineProvider="bounds"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="@dimen/cardview_default_radius"
+        android:layout_marginRight="@dimen/cardview_default_radius"
+        android:layout_marginTop="@dimen/cardview_default_radius"
+        android:layout_marginBottom="@dimen/cardview_default_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textnewsdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newshead"
+                android:layout_marginTop="7dp"
+                android:text="detailed e impotant to spe location and fact related which are impotant to spe location and fact related which are impotant to spe location and fact related which are impotant to spe location and fact related which are impotant to speated which are impotant to specify"
+                android:textSize="12dp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgtime"
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_below="@+id/textnewsdesc"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/ic_timeicon" />
+
+
+            <TextView
+                android:id="@+id/textViewnewstime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textnewsdesc"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="4dp"
+
+                android:layout_toRightOf="@+id/imgtime"
+                android:text="15:40 dec 30 2017"
+                android:textColor="#b93e3d3d"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/newshead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textnewsdesc"
+                android:layout_alignParentTop="true"
+                android:drawableTint="#777474"
+                android:layout_marginStart="0dp"
+                android:drawablePadding="10sp"
+                android:layout_marginTop="0dp"
+                android:drawableLeft="@drawable/ic_notifications_black_24dp"
+                android:singleLine="true"
+                android:text="news heading"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

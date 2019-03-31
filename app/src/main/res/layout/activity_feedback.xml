@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What do you think about the quality and complexity of the Events"
+                android:textColor="#000000"
+                android:layout_marginLeft="26dp"
+                android:textSize="15dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="34dp"
+                android:focusedByDefault="true"
+                android:id="@+id/textView1" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:focusedByDefault="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="52dp"
+                android:stepSize="1" />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ratingBar1"
+                android:id="@+id/line1"
+                android:background="#cecece" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What about the Event timings"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/line1"
+                android:layout_marginLeft="26dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="34dp"
+                android:id="@+id/textView2" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:stepSize="1"
+                android:layout_marginTop="48dp" />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ratingBar2"
+                android:id="@+id/line2"
+                android:background="#cecece" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Response from event coordinators"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/line2"
+                android:layout_marginLeft="26dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="34dp"
+                android:id="@+id/textView3" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:stepSize="1"
+                android:layout_marginTop="48dp" />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ratingBar3"
+                android:id="@+id/line3"
+                android:background="#cecece" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Was App helpfull"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/line3"
+                android:layout_marginLeft="26dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="34dp"
+                android:id="@+id/textView4" />
+
+            <RatingBar
+                android:id="@+id/ratingBar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:stepSize="1"
+                android:layout_marginTop="48dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ratingBar4"
+                android:id="@+id/line4"
+                android:background="#cecece" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:textColor="#000000"
+                android:layout_marginRight="26dp"
+                android:layout_marginTop="10dp"
+                android:minLines="5"
+                android:maxLines="10"
+                android:maxLength="500"
+                android:gravity="top|left"
+                android:textColorHint="#B9B8B8"
+                android:hint="write your feedback ..."
+                android:scrollbars="vertical"
+                android:id="@+id/comment"
+                android:layout_below="@+id/line4"
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_margin="10sp"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:shadowRadius="20"
+                android:textColor="@drawable/button_color"
+                android:text="Submit"
+                android:background="@drawable/button_custom"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/comment"
+                android:layout_marginBottom="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

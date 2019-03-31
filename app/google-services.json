@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "601223662559",
+    "firebase_url": "https://mahe-utsav-2019.firebaseio.com",
+    "project_id": "mahe-utsav-2019",
+    "storage_bucket": "mahe-utsav-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601223662559:android:6eb03cd89b4e2743",
+        "android_client_info": {
+          "package_name": "com.creativecodes.maheutsav2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601223662559-uvhor7qfofe6b341153jbbvdmhn98tbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creativecodes.maheutsav2019",
+            "certificate_hash": "d29438de6f010871c5fcf2398297cd8a4c4de0dc"
+          }
+        },
+        {
+          "client_id": "601223662559-6h2jggafrgus3gpgad1ijmubhikuakej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK1AIO0PLCXbeX4NOPV8oxJM3set8HbpE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601223662559-6h2jggafrgus3gpgad1ijmubhikuakej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

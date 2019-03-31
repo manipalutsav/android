@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".Notifications">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="4sp"
+        android:background="@drawable/editbox_customized"
+
+        android:id="@+id/relativeLayoutnewsmain">
+
+
+
+        <TextView
+            android:id="@+id/textViewnewsupdate"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textAllCaps="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Notifications" />
+
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listnews"
+        android:layout_marginTop="10dp"
+        android:divider="@android:color/transparent"
+        android:layout_marginBottom="4sp"
+        android:dividerHeight="5sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayoutnewsmain"
+        >
+      </ListView>
+
+
+
+
+</RelativeLayout>
